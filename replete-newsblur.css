@@ -1,0 +1,273 @@
+/* ==UserStyle==
+@name           Newsblur Replete theme - 25/07/2020, 20:07:46
+@namespace      github.com/replete/newsblur-replete-theme
+@version        1.0.0
+@description    Extends Newsblur's built-in theme, specifically the story view with much improved styles
+@author         Phil Ricketts @replete
+==/UserStyle== */
+
+:root {
+  --replete-bg-color: #F7F6F4;
+  --replete-text-subtle-color: #B2B1B0;
+  --replete-text-lighter-color: #aaa;
+  --replete-text-dark-color: #999;
+  --replete-text-darkest-color: #000;
+  --replete-text-color: #3E3E3D;
+  --replete-text-link-color: #58C1FF;
+  --replete-yellow: #F7DF8C;
+  --replete-font-family: -apple-system , '.SFNSText-Regular' , 'Helvetica Neue' , 'Roboto' , 'Segoe UI' , sans-serif;
+  --replete-left-margin: 40px;
+  --replete-header-text-size: 12px;
+}
+
+/* Just looks way better on Mac */
+* { font-family: var(--replete-font-family) !important; }
+
+.NB-story-content-container {
+  background: var(--replete-bg-color) !important;
+  font-family: var(--replete-font-family) !important;
+  padding-left: var(--replete-left-margin)
+}
+
+.NB-feed-story-header {
+  background: var(--replete-bg-color) !important;
+}
+
+.NB-feed-story-header-info {
+  background: var(--replete-bg-color) !important;
+  border-bottom:0 !important;
+  padding-left: var(--replete-left-margin) !important;
+}
+
+.NB-feed-story-title-container {
+  padding-top: 30px;
+  padding-bottom:10px;
+}
+
+.NB-feed-story-title {
+  color: var(--replete-text-darkest-color) !important;
+  letter-spacing: 0 !important;
+  font-weight:600 !important;
+  font-family: var(--replete-font-family);
+  font-size:32px !important;
+  padding-right:15%;
+  line-height: 1.1em !important;
+}
+
+.NB-feed-story-date-line * {
+  font-size: var(--replete-header-text-size);
+  font-weight: 350 !important;
+  text-rendering: optimizelegibility !important;
+}
+
+.NB-feed-story-show-changes {
+  background:none !important;
+  padding-left:0 !important;
+}
+
+.NB-feed-story-date,
+.NB-feed-story-starred-date {
+  color: var(--replete-text-dark-color) !important;
+  text-transform:uppercase;
+  font-size: 10px !important;
+  font-weight:500 !important;
+}
+
+.NB-feed-story-date {
+  color: var(--replete-text-dark-color) !important;
+}
+
+
+.NB-feed-story-starred-date {
+  line-height:1em;
+  width:100% !important;
+  position: absolute;
+  top:5px;
+  left: var(--replete-left-margin)
+}
+
+.NB-feed-story-starred-date::before {
+  content: 'Saved:';
+  margin-right: 0.5em;
+}
+
+.NB-feed-story-starred-date {
+  background-size:12px !important;
+  padding-left:14px !important;
+  margin-top:5px !important;
+  display:inline-block !important;
+}
+
+.NB-feed-story-author {
+  font-style: italic !important;
+  letter-spacing:0;
+  padding-bottom:0 !important;
+}
+
+.NB-feed-story-author:hover {
+  color: var(--replete-text-darkest-color) !important;
+  border-bottom: 1px solid var(--replete-text-lighter-color) !important;
+}
+
+
+
+.NB-feed-story-show-changes {
+  position:absolute;
+  top: 0px;
+    right:0px;
+}
+NB-feed-story-show-changes .NB-middot {
+  display:none;
+}
+
+.NB-feed-story-tags {
+  display:block !important;
+  width:100%;
+  float:left;
+  padding-right:20% !important;
+  max-width:500px;
+  margin:0 0 -4px 2px !important;
+  border-top: 1px dotted #eee !important;
+}
+.NB-feed-story-tags .NB-middot {display:none}
+
+.NB-feed-story-tag {
+  background: 0 !important;
+  padding: 0 !important;
+  border:0 !important;
+  border-bottom: 1px solid #ddd !important;
+  margin: 0 4px 0 0 !important;
+  text-transform: uppercase !important;
+  font-size: 9px !important;
+  border-radius:0 !important;
+  color: var(--replete-text-dark-color) !important;
+}
+/* .NB-feed-story-tag::before {
+  content: '#';
+  font-size:11px !important;
+  color:var(--replete-text-subtle-color);
+  transform:translate(1px,1px);
+  line-height:1em;
+  display: inline-block !important;
+} */
+
+.NB-feed-story-tag:hover {
+  color: var(--replete-text-darkest-color) !important;
+  border-bottom-color: var(--replete-text-darkest-color) !important;
+}
+
+.NB-sideoption-title {
+  color:var(--replete-text-light-color) !important;
+/*   background: var(--replete-text-subtle-color); */
+}
+
+
+
+.NB-feed-story-content {
+  color: var(--replete-text-color) !important;
+  font-size:16px;
+  line-height: 1.6rem;
+  font-weight: 350 !important;
+}
+
+.NB-feed-story-content p,
+.NB-feed-story-content li,
+.NB-feed-story-content div {
+    color: var(--replete-text-color) !important;
+}
+
+.NB-feed-story-content a {
+  color: var(--replete-text-darkest-color) !important;
+  text-decoration:none;
+  border-bottom:1px solid var(--replete-text-subtle-color);
+}
+
+.NB-feed-story-content h2 { font-size: 19px; font-weight:600;}
+.NB-feed-story-content h3 { font-size: 16px; font-weight:600;}
+.NB-feed-story-content h4 { font-size: 16px; font-weight:600;}
+.NB-feed-story-content h5 { font-size: 16px; font-weight:350;}
+
+.NB-feed-story-content h2 + br,
+.NB-feed-story-content h3 + br,
+.NB-feed-story-content h4 + br,
+.NB-feed-story-content h5 + br {
+  display:none;
+}
+
+.NB-feed-story-content li {
+  list-style-type:disc;
+  margin-bottom:1em;
+}
+
+
+/* Images / video */
+.NB-feed-story-content img:nth-of-type(1),
+.NB-feed-story-content video:nth-of-type(1){
+min-width:75%;
+}
+
+.NB-feed-story-content .credit, 
+.NB-feed-story-content cite,
+.NB-feed-story-content figcaption {
+  color: var(--replete-text-dark-color) !important;
+  font-weight:300;
+  font-size:13px;
+  display:block;
+}
+
+.NB-feed-story-content figure {
+  margin:0 0 25px 0;
+}
+
+.NB-feed-story-content figure img {
+  margin-top:10px;
+}
+
+.NB-feed-story-content blockquote {
+  color: var(--replete-text-color-dark) !important;
+  font-style: italic;
+  font-weight:600;
+/*   background: #eee !important; */
+  margin: 10px 0 25px 0;
+}
+/* .NB-feed-story-content blockquote::before {
+  content: '"';
+  font-style:normal;
+  font-weight:100;
+  display:block;
+  color: rgba(0,0,0, 0.5);
+  font-size: 32px;
+} */
+
+.NB-story-content-wrapper {
+  padding-left: 0 !important;
+}
+
+.NB-story-comments-shares-teaser {
+  background: var(--replete-bg-color) !important;
+  border:0 !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  padding-left: var(--replete-left-margin) !important;
+  border-left: 5px solid transparent !important; /* hack hack hack */
+}
+
+.NB-story-comments-shares-teaser .NB-right {
+box-shadow: 0px 0px 5px -1px rgba(0,0,0,.2);
+border-radius:4px;
+  padding-right:3px;
+display:inline-block;
+float:none;
+  border:1px solid #ccc;
+  padding:1px 4px 1px 1px;
+}
+
+.NB-story-comments-label {
+  margin-right:2px;
+}
+
+
+.NB-feed-story-comments {
+margin:0 0 32px 0 !important;
+  text-shadow: none !important;
+}
