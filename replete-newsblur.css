@@ -37,9 +37,13 @@
   background: var(--replete-bg-color) !important;
   border-bottom:0 !important;
   padding-left: var(--replete-left-margin) !important;
+  max-width:730px;
+  margin: 0 auto;
+  padding-top:30px !important;
+  border-left:0 !important;
 }
 
-.NB-feed-story-title-container {
+.NB-feed-story--container {
   padding-top: 30px;
   padding-bottom:10px;
 }
@@ -50,7 +54,7 @@
   font-weight:600 !important;
   font-family: var(--replete-font-family);
   font-size:32px !important;
-  padding-right:15%;
+  max-width: 590px;
   line-height: 1.1em !important;
 }
 
@@ -303,3 +307,7 @@ min-width:75%;
   font-weight:300 !important;
 }
 
+.NB-feed-story-content {
+/*   background:green; */
+  margin: 0 auto;
+}
