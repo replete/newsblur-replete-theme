@@ -162,7 +162,6 @@ NB-feed-story-show-changes .NB-middot {
 
 .NB-sideoption-title {
   color:var(--replete-text-light-color) !important;
-/*   background: var(--replete-text-subtle-color); */
 }
 
 
@@ -255,34 +254,18 @@ max-width: 500px !important;
   box-shadow: none !important;
   padding-left: var(--replete-left-margin) !important;
   border-left: 5px solid transparent !important; /* hack hack hack */
-/*   background:red !important;; */
-/*   margin:0 auto; */
-/*   text-align:center; */
 }
 
 .NB-story-comments-shares-teaser-wrapper {
-/*   width:100% !important;
-  display:block;
-  border:2px solid red ; */
   text-align:right;
   margin-top:-10px;
-/* transform:translate(0, -20px) */
 }
 
-.NB-story-comments-shares-teaser {
-/*   max-width:730px; */
-/*   margin:0 auto; */
-/*   display:inline-block; */
-/*   background:blue !important; */
-}
-
-.NB-story-comments-shares-teaser . {
-/*   box-shadow: 0px 0px 5px -1px rgba(0,0,0,.2); */
+.NB-story-comments-shares-teaser .NB-right {
   border-radius:4px;
   padding-right:3px;
   display:inline-block;
   float:none;
-/*   border:1px solid #ccc; */
   padding:1px 4px 1px 1px;
   transform: translate(0,-1px) !important;
 }
@@ -327,13 +310,11 @@ max-width: 500px !important;
 }
 
 .NB-story-title .story_date {
-/*   color: var(--replete-text-dark-color) !important; */
   text-transform:uppercase;
   font-size: 9px !important;
   font-weight:300 !important;
 }
 
 .NB-feed-story-content {
-/*   background:green; */
   margin: 0 auto;
 }
