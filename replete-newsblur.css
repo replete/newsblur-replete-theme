@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Newsblur Replete theme - 25/07/2020, 20:07:46
 @namespace      github.com/replete/newsblur-replete-theme
-@version        1.0.0
+@version        1.0.1
 @description    Extends Newsblur's built-in theme, specifically the story view with much improved styles
 @author         Phil Ricketts @replete
 ==/UserStyle== */
@@ -54,7 +54,7 @@
   line-height: 1.1em !important;
 }
 
-.NB-feed-story-date-line * {
+.NB-feed-story--line * {
   font-size: var(--replete-header-text-size);
   font-weight: 350 !important;
   text-rendering: optimizelegibility !important;
@@ -266,8 +266,41 @@ float:none;
   margin-right:2px;
 }
 
-
 .NB-feed-story-comments {
 margin:0 0 32px 0 !important;
   text-shadow: none !important;
 }
+
+
+
+.NB-story-title-container {
+  
+}
+
+.NB-storytitles-title {
+font-size: 13px;
+font-weight: 400;
+/* line-height:1.2em; */
+}
+
+.NB-storytitles-author {
+font-weight:300;
+font-style:italic;
+font-size:9px;
+display:inline-block;
+padding-left:2px !important;
+}
+
+.NB-storytitles-content-preview {
+font-weight:500;
+text-rendering: optimizelegibility !important;;
+font-size: 10px !important;
+}
+
+.NB-story-title .story_date {
+  color: var(--replete-text-dark-color) !important;
+  text-transform:uppercase;
+  font-size: 9px !important;
+  font-weight:300 !important;
+}
+
