@@ -18,6 +18,7 @@
   --replete-font-family: -apple-system , '.SFNSText-Regular' , 'Helvetica Neue' , 'Roboto' , 'Segoe UI' , sans-serif;
   --replete-left-margin: 40px;
   --replete-header-text-size: 12px;
+  --replete-mono-font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 }
 
 /* Just looks way better on Mac */
@@ -197,6 +198,14 @@ NB-feed-story-show-changes .NB-middot {
   display:none;
 }
 
+.NB-feed-story-content p a {
+  font-weight: 450;
+  letter-spacing: -0.04em;
+  font-style: italic;
+/*   border-color: var(--replete-text-link-color); */
+}
+
+
 .NB-feed-story-content li {
   list-style-type:disc;
   margin-bottom:1em;
@@ -317,4 +326,23 @@ max-width: 500px !important;
 
 .NB-feed-story-content {
   margin: 0 auto;
+}
+
+.NB-feed-story-content code,
+.NB-feed-story-content pre {
+  font-family: monospace !important;
+  background: #e7e7e7 !important;
+  color: var(--replete-text-color-light) !important;
+}
+
+.NB-feed-story-content code *,
+.NB-feed-story-content pre * {
+  font-family: monospace !important;
+}
+
+.NB-feed-story-content code {
+  padding:0 3px;
+}
+
+.NB-feed-story-content pre {
 }

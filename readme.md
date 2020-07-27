@@ -6,8 +6,8 @@ An opinionated theme extended for the native NewsBlur dark theme, adding a white
 
 ## Main features
 
-* Mostly the redesigned story headers
-* Fonts for Mac
+* Looks nice on Mac
+* 
 * Minor tweaks for shitty `fulltextrss`-type feeds
 * Bugs, because I rushed this in order to have readable
 
@@ -18,9 +18,9 @@ I couldn't adjust the reading view in `Reeder Mac`, and thought I may as well wr
 ## TODO
 * [x] Make it usable
 * [x] Style comments section
-* [ ] Add code styles
-* [ ] Rename/describe it better
+* [x] Add [basic] code styles 
+* [ ] Put this on userscripts etc
 * [ ] Check in other Mac browsers
 * [ ] Check in Windows
-* [ ] Put this on userscripts etc
+* [ ] Rename/describe it better
 * [ ] JS enhancements (clean markup in view perhaps)
