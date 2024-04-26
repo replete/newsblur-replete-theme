@@ -1,26 +1,30 @@
 # Newsblur-replete theme
 
-An opinionated theme extended for the native NewsBlur dark theme, adding a white story view. WIP
+An opinionated theme extension user style for the native NewsBlur dark theme.
 
-![Newsblur-replete screenshot](screenshot.png)
+I set up the account, and enabled dark mode. This CSS is designed to work on top of it and can be applied with a browser extension like 'Stylus', just copy and paste the CSS in and it should work straight away.
 
-## Main features
+## Features
 
-* Looks nice on Mac
-* 
-* Minor tweaks for shitty `fulltextrss`-type feeds
-* Bugs, because I rushed this in order to have readable
+- White story view
+- Compact sidebar
+- Typography improvements
+- Grid view
+- Magazine view
+- List view
+
+## Screenshots
+
+![Newsblur-replete screenshot](split.png)
+
+![Newsblur-replete screenshot](magazine.png)
+
+![Newsblur-replete screenshot](grid.png)
 
 ## Why 
 
-I couldn't adjust the reading view in `Reeder Mac`, and thought I may as well write a user script to fix the basic Newsblur theme. I ~~stole~~ _was inspired by_ the headline/font styles.
+I think Newsblur is the best RSS reader out there, but isn't a great reading experience. I really like this software so decided to spend a few hours improving the reading experience given how much time I'm spending in it.
 
-## TODO
-* [x] Make it usable
-* [x] Style comments section
-* [x] Add [basic] code styles 
-* [ ] Put this on userscripts etc
-* [ ] Check in other Mac browsers
-* [ ] Check in Windows
-* [ ] Rename/describe it better
-* [ ] JS enhancements (clean markup in view perhaps)
+## Todo
+
+There's a lot that could be improved, but this is good enough for now. I may or may not improve this further.
