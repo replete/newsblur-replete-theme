@@ -15,11 +15,13 @@ I set up the account, and enabled dark mode. This CSS is designed to work on top
 
 ## Screenshots
 
-![Newsblur-replete screenshot](split.png)
-
 ![Newsblur-replete screenshot](magazine.png)
 
 ![Newsblur-replete screenshot](grid.png)
+
+![Newsblur-replete screenshot](split.png)
+
+![Newsblur-replete screenshot](list.png)
 
 ## Why 
 
