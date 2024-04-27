@@ -23,11 +23,3 @@ Enable dark theme in Newsblur, and either:
 ![Newsblur-replete screenshot](grid.png)
 
 ![Newsblur-replete screenshot](list.png)
-
-## Why 
-
-I think Newsblur is the best RSS reader out there, but isn't a great reading experience. I really like this software so decided to spend a few hours improving the reading experience given how much time I'm spending in it.
-
-## Todo
-
-There's a lot that could be improved, but this is good enough for now. I may or may not improve this further.
